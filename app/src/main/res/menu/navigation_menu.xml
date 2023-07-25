@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/appmenu">
+
+        <item  android:id="@+id/view_clockstyle"
+             android:title="Clock Style" />
+
+
+        <item android:id="@+id/view_background"
+            android:title="New Background" />
+
+        <item android:id="@+id/view_premiumclocks"
+            android:title="Paid Clocks" />
+
+
+
+
+
+
+
+
+    </group>
+
+
+</menu>
