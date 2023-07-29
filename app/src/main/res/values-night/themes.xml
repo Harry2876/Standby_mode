@@ -5,4 +5,12 @@
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
 
+    <!--new style is created here-->
+    <style name="NavFontStyle" parent="android:Widget.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
 </resources>

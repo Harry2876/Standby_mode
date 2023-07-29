@@ -3,11 +3,65 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="220dp"
-    android:background="@color/backgroundcolor"
+    android:background="@drawable/nav_sidebar_text"
     android:orientation="vertical"
     android:paddingBottom="15dp"
     android:paddingRight="15dp"
     android:paddingTop="15dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Place Where,"
+    android:textSize="25sp"
+    android:textColor="@color/black"
+    android:fontFamily="@font/poppins_semibold"
+    android:paddingLeft="10dp"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You Met,"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_semibold"
+        android:paddingLeft="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your All,"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_semibold"
+        android:paddingLeft="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Needs"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_semibold"
+        android:paddingLeft="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </LinearLayout>
