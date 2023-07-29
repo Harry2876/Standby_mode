@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--new style is created here-->
+    <style name="NavFontStyle" parent="android:Widget.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+
+</resources>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/appdrawerlayout"
     tools:context=".MainActivity"
+    android:background="@color/backgroundcolor"
     android:layout_height="match_parent"
     android:layout_width="match_parent">
 
@@ -32,10 +33,10 @@
         android:layout_height="match_parent"
         android:id="@+id/navView"
         android:layout_gravity=""
-        android:background="@color/white"
+        android:background="@color/backgroundcolor"
         app:menu="@menu/navigation_menu"
         app:itemTextAppearance="@style/NavFontStyle"
-        app:itemTextColor="@color/black"
+        app:itemTextColor="@color/textcolor"
         app:headerLayout="@layout/nav_header">
 
         <androidx.cardview.widget.CardView
@@ -45,7 +46,7 @@
             android:layout_marginStart="-55dp"
             app:cardElevation="30dp"
             app:cardCornerRadius="55dp"
-            app:cardBackgroundColor="@color/white"
+            app:cardBackgroundColor="@color/backgroundcolor"
             app:cardMaxElevation="12dp"
             app:cardPreventCornerOverlap="true"
             app:cardUseCompatPadding="true">
@@ -55,7 +56,7 @@
                 android:layout_height="wrap_content"
                 android:text="Place Where,"
                 android:textSize="25sp"
-                android:textColor="@color/black"
+                android:textColor="@color/textcolor"
                 android:fontFamily="@font/poppins_semibold"
                 android:paddingLeft="10dp"
                 android:layout_marginTop="100dp"
@@ -67,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:text="You Met,"
                 android:textSize="25sp"
-                android:textColor="@color/black"
+                android:textColor="@color/textcolor"
                 android:fontFamily="@font/poppins_semibold"
                 android:paddingLeft="10dp"
                 android:layout_marginTop="130dp"
@@ -79,7 +80,7 @@
                 android:layout_height="wrap_content"
                 android:text="Your All,"
                 android:textSize="25sp"
-                android:textColor="@color/black"
+                android:textColor="@color/textcolor"
                 android:fontFamily="@font/poppins_semibold"
                 android:paddingLeft="10dp"
                 android:layout_marginTop="160dp"
@@ -91,7 +92,7 @@
                 android:layout_height="wrap_content"
                 android:text="Needs"
                 android:textSize="40sp"
-                android:textColor="@color/black"
+                android:textColor="@color/textcolor"
                 android:fontFamily="@font/poppins_semibold"
                 android:paddingLeft="10dp"
                 android:textStyle="bold"
