@@ -3,5 +3,6 @@
     <color name="backgroundcolor">#000</color>
     <color name="textcolor">#FFFFFF</color>
 
-    <color name="cardcolor">#201F1F</color>
+    <color name="cardTextColor">#fbf8cc</color>
+    <color name="cardcolor">#D90429</color>
 </resources>

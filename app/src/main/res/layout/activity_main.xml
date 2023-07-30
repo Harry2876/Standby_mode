@@ -10,6 +10,7 @@
 
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -21,7 +22,7 @@
 
 
         <FrameLayout
-            android:id="@+id/flcontent"
+            android:id="@+id/frameLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>
@@ -32,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/navView"
-        android:layout_gravity=""
+        android:layout_gravity="left"
         android:background="@color/backgroundcolor"
         app:menu="@menu/navigation_menu"
         app:itemTextAppearance="@style/NavFontStyle"
@@ -40,24 +41,25 @@
         app:headerLayout="@layout/nav_header">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="520dp"
+            android:layout_width="395dp"
             android:layout_height="400dp"
             android:layout_marginTop="-140dp"
             android:layout_marginStart="-60dp"
             app:cardElevation="30dp"
-            app:cardCornerRadius="55dp"
+            app:cardCornerRadius="60dp"
             app:cardBackgroundColor="@color/cardcolor"
             app:cardMaxElevation="12dp"
             app:cardPreventCornerOverlap="true"
             app:cardUseCompatPadding="true">
+
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Place Where,"
                 android:textSize="25sp"
-                android:textColor="@color/textcolor"
-                android:fontFamily="@font/poppins_semibold"
+                android:textColor="@color/cardTextColor"
+                android:fontFamily="@font/dm_sans_semibold"
                 android:paddingLeft="10dp"
                 android:layout_marginTop="100dp"
                 android:layout_marginLeft="15dp"
@@ -68,8 +70,8 @@
                 android:layout_height="wrap_content"
                 android:text="You Met,"
                 android:textSize="25sp"
-                android:textColor="@color/textcolor"
-                android:fontFamily="@font/poppins_semibold"
+                android:textColor="@color/cardTextColor"
+                android:fontFamily="@font/dm_sans_semibold"
                 android:paddingLeft="10dp"
                 android:layout_marginTop="130dp"
                 android:layout_marginLeft="15dp"
@@ -80,8 +82,8 @@
                 android:layout_height="wrap_content"
                 android:text="Your All,"
                 android:textSize="25sp"
-                android:textColor="@color/textcolor"
-                android:fontFamily="@font/poppins_semibold"
+                android:textColor="@color/cardTextColor"
+                android:fontFamily="@font/dm_sans_semibold"
                 android:paddingLeft="10dp"
                 android:layout_marginTop="160dp"
                 android:layout_marginLeft="15dp"
@@ -92,24 +94,14 @@
                 android:layout_height="wrap_content"
                 android:text="Needs"
                 android:textSize="40sp"
-                android:textColor="@color/textcolor"
-                android:fontFamily="@font/poppins_semibold"
+                android:textColor="@color/cardTextColor"
+                android:fontFamily="@font/dm_sans_semibold"
                 android:paddingLeft="10dp"
                 android:textStyle="bold"
                 android:layout_marginTop="190dp"
                 android:layout_marginLeft="15dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
         </androidx.cardview.widget.CardView>
-
-
-
-
-
-
-
-
-
-
     </com.google.android.material.navigation.NavigationView>
 
 

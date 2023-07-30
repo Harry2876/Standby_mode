@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ToolbarFontStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <!-- Add any other desired text appearance attributes here -->
+    </style>
+
+</resources>
